@@ -8,6 +8,8 @@ import com.onlinestore.model.OnlinestoreModel;
 
 @Repository
 public interface OnlinestoreRepository extends JpaRepository<OnlinestoreModel, Long> {
+	
+	
 
 
 }

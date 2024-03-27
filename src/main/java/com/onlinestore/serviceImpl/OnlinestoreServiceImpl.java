@@ -19,7 +19,7 @@ public class OnlinestoreServiceImpl implements OnlinestoreService{
 	
 	@Override
 	public OnlinestoreModel save(OnlinestoreModel model) {
-		// TODO Auto-generated method stub
+		
 		OnlinestoreModel modelSaved=repo.save(model);
 		return modelSaved;
 	}

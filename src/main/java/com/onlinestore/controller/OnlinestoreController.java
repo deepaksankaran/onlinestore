@@ -29,8 +29,8 @@ public class OnlinestoreController {
 	@PostMapping("/save")
 	public OnlinestoreModel postOnlineStore(@RequestBody OnlinestoreModel model) {
 		//TODO: process POST request
-		service.save(model);
-		return model;
+		OnlinestoreModel models=	service.save(model);
+		return models;
 	}
 	
 	@GetMapping("/getAll")
